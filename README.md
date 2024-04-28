@@ -39,3 +39,16 @@ The global configurations are a user specific settings found in the user home di
 2. replace user name and commit email address in `~/.gitconfig` (or `~/.config/git/config`) directly or [via git config commands](#basic-settings)
 3. copy [gitignore](config/gitignore) to `~/.gitignore`
 4. copy [gitmessage](config/gitmessage) to `~/.gitmessage`
+
+## Useful resources
+
+Git basics:
+
+- Git cheat sheet: [Git Cheat Sheet (from GitHub)](https://education.github.com/git-cheat-sheet-education.pdf)
+- Git Introduction: [Git: The Beginner's Guide to Understanding Core Version Control Concepts](https://www.freecodecamp.org/news/git-the-laymans-guide-to-understanding-the-core-concepts/)
+- Git Basics: [Free Git book](https://git-scm.com/book/)
+
+Best practices:
+
+- Git ignore: [Git ignore recommendations](https://github.com/github/gitignore)
+- Commit Messages: [Git commit message best practices](https://chris.beams.io/posts/git-commit/)
