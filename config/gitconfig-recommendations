@@ -1,0 +1,21 @@
+# Put this in your ~/.gitconfig or ~/.config/git/config
+# Windows users: "~" is your profile's home folder, e.g. C:\Users\<YourName>
+#
+# BASIC SETTINGS
+#
+[user]
+	name = <Firstname> <Lastname>
+	email = <firstname>.<lastname>@<domain>.<tld>
+[commit]
+	template = ~/.gitmessage
+[core]
+	excludesfile = ~/.gitignore
+[init]
+	defaultBranch = main
+[push]
+	default = simple
+[submodule]
+	recurse = true
+#
+# CUSTOM SETTINGS
+#
