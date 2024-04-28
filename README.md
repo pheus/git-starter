@@ -27,11 +27,15 @@ The basic and recommended settings are provided in the file
 [gitconfig-recommendations](config/gitconfig-recommendations).
 Please change the user settings, if the content is copied.
 
+### Optional settings
+
+Some additional settings are included in the [gitconfig-complete](config/gitconfig-complete) configuration template (like aliases and color settings).
+
 ### Usage of provided configurations
 
 The global configurations are a user specific settings found in the user home directory (`~/`) (or in the User folder for Windows, e.g. `C:\Users\<YourName>`)
 
-1. copy [gitconfig-recommendations](config/gitconfig-recommendations) to `~/.gitconfig` (or `~/.config/git/config`)
+1. copy either [gitconfig-recommendations](config/gitconfig-recommendations) or [gitconfig-complete](config/gitconfig-complete) to `~/.gitconfig` (or `~/.config/git/config`)
 2. replace user name and commit email address in `~/.gitconfig` (or `~/.config/git/config`) directly or [via git config commands](#basic-settings)
 3. copy [gitignore](config/gitignore) to `~/.gitignore`
 4. copy [gitmessage](config/gitmessage) to `~/.gitmessage`
