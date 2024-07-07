@@ -17,15 +17,15 @@ git config --global user.email firstname.lastname@example.org
 
 The recommendation for an additional configuration includes:
 
-- global gitignore file ([gitignore](config/gitignore))
-- commit message template ([gitmessage](config/gitmessage))
-- default branch changed to `main` (from 'master') (requires Git 2.28+)
-- simple push (only push current branch)
-- recursive submodule init
+- Global gitignore file ([gitignore](config/gitignore))
+- Commit message template ([gitmessage](config/gitmessage))
+- Default branch changed to `main` (from 'master') (requires Git 2.28+)
+- Simple push (only push current branch)
+- Recursive submodule init
 
 The basic and recommended settings are provided in the file
 [gitconfig-recommendations](config/gitconfig-recommendations).
-Please change the user settings, if the content is copied.
+Please change the user settings if the content is copied.
 
 ### Optional settings
 
@@ -33,12 +33,12 @@ Some additional settings are included in the [gitconfig-complete](config/gitconf
 
 ### Usage of provided configurations
 
-The global configurations are a user specific settings found in the user home directory (`~/`) (or in the User folder for Windows, e.g. `C:\Users\<YourName>`)
+The global configurations are a user-specific settings found in the user home directory (`~/`) (or in the User folder for Windows, e.g. `C:\Users\<YourName>`)
 
-1. copy either [gitconfig-recommendations](config/gitconfig-recommendations) or [gitconfig-complete](config/gitconfig-complete) to `~/.gitconfig` (or `~/.config/git/config`)
-2. replace user name and commit email address in `~/.gitconfig` (or `~/.config/git/config`) directly or [via git config commands](#basic-settings)
-3. copy [gitignore](config/gitignore) to `~/.gitignore`
-4. copy [gitmessage](config/gitmessage) to `~/.gitmessage`
+1. Copy either [gitconfig-recommendations](config/gitconfig-recommendations) or [gitconfig-complete](config/gitconfig-complete) to `~/.gitconfig` (or `~/.config/git/config`)
+2. Replace username and commit email address in `~/.gitconfig` (or `~/.config/git/config`) directly or [via git config commands](#basic-settings)
+3. Copy [gitignore](config/gitignore) to `~/.gitignore`
+4. Copy [gitmessage](config/gitmessage) to `~/.gitmessage`
 
 ## Useful resources
 
