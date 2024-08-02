@@ -1,4 +1,4 @@
-# Put this in your ~/.gitignore_global or ~/.config/git/ignore
+# Put this in your ~/.gitignore or ~/.config/git/ignore
 # Windows users: "~" is your profile's home folder, e.g. C:\Users\<YourName>
 #
 # Source: https://github.com/github/gitignore
